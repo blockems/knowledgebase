@@ -35,3 +35,5 @@ with open('openaiapikey.txt', 'r') as infile:
 
     # load documents and create vector index
     vector_index = create_vector_index(openai_api_key)
+
+
